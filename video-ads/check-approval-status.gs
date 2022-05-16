@@ -5,7 +5,7 @@ function main() {
     const videoAdSelector = AdsApp
         .videoAds()
         .withCondition('ad_group_ad.status = ENABLED')
-        .forDateRange('YESTERDAY"')
+        .forDateRange('YESTERDAY')
     ;
 
     const videoAdIterator = videoAdSelector.get();
