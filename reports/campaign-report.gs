@@ -4,8 +4,8 @@ function main() {
       'metrics.impressions,' +
       'metrics.cost_micros,' +
       'metrics.conversions' +
-      'FROM campaign' +
-      'WHERE segments.date DURING YESTERDAY'
+      ' FROM campaign' +
+      ' WHERE segments.date DURING YESTERDAY'
   );
 
   let data = [];
