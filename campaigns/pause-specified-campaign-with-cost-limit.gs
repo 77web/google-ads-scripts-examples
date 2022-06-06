@@ -9,7 +9,7 @@ function main() {
   
   while (campaigns.hasNext()) {
     let campaign = campaigns.next();
-    campaign.paused();
+    campaign.pause();
     console.log('Paused campaign' + campaign.getName());
   }
 }
